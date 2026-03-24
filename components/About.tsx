@@ -59,7 +59,7 @@ export default function About() {
                                 transition={{ duration: 0.6 }}
                                 className="text-2xl font-bold text-white mb-8 border-b border-white/10 pb-4"
                             >
-                                An Overview
+                                My Journey
                             </motion.h3>
 
                             <div className="space-y-10 border-l border-white/10 pl-6 ml-2">
