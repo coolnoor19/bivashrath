@@ -3,6 +3,7 @@ import Marquee from "@/components/Marquee";
 import About from "@/components/About";
 import Stats from "@/components/Stats";
 import Services from "@/components/Services";
+import PreviousQuiz from "@/components/PreviousQuiz";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Marquee />
       <About />
       <Services />
+      <PreviousQuiz />
       <Stats />
     </main>
   );

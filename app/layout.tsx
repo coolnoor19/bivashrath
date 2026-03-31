@@ -4,10 +4,10 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-// const outfit = Outfit({
-//   variable: "--font-outfit",
-//   subsets: ["latin"],
-// });
+const outfit = Outfit({
+  variable: "--font-outfit",
+  subsets: ["latin"],
+});
 
 // additional font imported from Google Fonts
 const rethink = Rethink_Sans({
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${rethink.variable} antialiased bg-black text-white selection:bg-amber-500/30 font-sans`}
+        className={`${outfit.variable} ${rethink.variable} antialiased bg-black text-white selection:bg-amber-500/30 font-sans`}
       >
         <Navbar />
         {children}
